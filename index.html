@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissor</title>
+    <script src="app.js" type="module"></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div id="all">
-    <script src="app.js" async defer type="module"></script>
+    
     <header>
-      <p>Rock Paper Scissor</p>
+      <h1 id="name">Rock Paper Scissor</h1>
     </header>
 
     <div class="score-board">
@@ -22,7 +23,7 @@
     <div class="result">
         <p>ROCK > SCISSOR > PAPER > ROCK</p>
     </div>
-    <br>
+
     <div class="choices">
         <div id="r" class="choice">
             <img src="components/rock.png" alt="" width="100" height="100" />
@@ -36,8 +37,7 @@
     </div>
 
     <p id="action-msg">Make your move</p>
-    <br>
-    <div id="end" class="end-game">End Game</div>
+      <div id="end" class="end-game">End Game</div>
 </div>
 </body>
 </html>

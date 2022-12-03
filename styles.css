@@ -13,8 +13,8 @@ body {
   background-color: rgb(27, 4, 24);
 }
 header {
-  padding: 20px;
-  font-size: 50px;
+  padding: 10px;
+  font-size: 30px;
   margin-top: 30px;
   text-align: center;
   font-weight: bold;
@@ -59,7 +59,9 @@ header {
   right: -25px;
   border-radius: 2px;
 }
-
+#name {
+  color: black important;
+}
 .result {
   font-size: 25px;
   color: white;
